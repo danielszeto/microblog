@@ -1,3 +1,5 @@
+
+
 window.onload = function() {
 
 	var userInput = [];
@@ -11,7 +13,8 @@ function initListener () {
 		form.addEventListener("submit",function (e) {
 		e.preventDefault();
 		
-		
+
+
 		var newAnswer = document.createElement('li');
 		newAnswer.classname = "new-list";
 		newAnswer.innerHTML = name.value;
